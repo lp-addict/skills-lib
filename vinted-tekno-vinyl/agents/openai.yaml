@@ -1,10 +1,9 @@
 interface:
-  display_name: Vinted Tekno Vinyl
-  short_description: Vindbare vinylzoekertjes uit een releasenaam of foto
-  default_prompt: Gebruik $vinted-tekno-vinyl om van deze releasenaam of foto een
-    nauwkeurig, vindbaar Vinted-zoekertje te maken.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Vinted Tekno Vinyl"
+  short_description: "Vinylzoekertjes in vast format met onderbouwd prijsadvies"
+  default_prompt: "Gebruik $vinted-tekno-vinyl om van deze releasenaam of foto een Vinted-zoekertje te maken met Tracklist, specificaties met emoji's, hashtags en een afzonderlijk prijsadvies."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
 policy:
   products:
   - chatgpt
