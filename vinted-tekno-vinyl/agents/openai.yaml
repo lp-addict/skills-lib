@@ -1,0 +1,14 @@
+interface:
+  display_name: Vinted Tekno Vinyl
+  short_description: Vindbare vinylzoekertjes uit een releasenaam of foto
+  default_prompt: Gebruik $vinted-tekno-vinyl om van deze releasenaam of foto een
+    nauwkeurig, vindbaar Vinted-zoekertje te maken.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
