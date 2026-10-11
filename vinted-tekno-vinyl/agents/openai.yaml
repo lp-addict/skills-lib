@@ -1,7 +1,7 @@
 interface:
   display_name: "Vinted Tekno Vinyl"
   short_description: "Compacte Vinted-listings met Mint/Mint-default en prijsadvies"
-  default_prompt: "Gebruik $vinted-tekno-vinyl om van deze releasenaam of foto een Vinted-zoekertje te maken met Tracklist, specificaties met emoji's, hashtags en een afzonderlijk prijsadvies."
+  default_prompt: "Gebruik $vinted-tekno-vinyl voor een Vinted-titel, compacte beschrijving met 1-2 introductieregels, tracklist, details, standaard Mint/Mint-conditie en hashtags, plus apart prijsadvies. Geen externe bronverwijzingen in de output."
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:
