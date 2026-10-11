@@ -1,6 +1,6 @@
 ---
 name: vinted-tekno-vinyl
-description: "Maak nauwkeurige, vindbare Vinted-titels, verkoopbeschrijvingen en prijsadvies voor tekno en andere elektronische vinylplaten op basis van een releasenaam, artiest/titel, foto van plaat of hoes, Discogs-release-ID of URL. Gebruik voor Vinted-vinylzoekertjes, het verbeteren van listings en het bepalen van een vraagprijs. Onderzoek eerst Discogs, vul ontbrekende gegevens aan via Google/webzoekopdrachten, verifieer de uitvoering en vraag alleen ontbrekende conditie- of identificatiegegevens. Lever een titel van maximaal 40 tekens en een beschrijving volgens het vaste screenshotformat: Tracklist, metadata met emoji's, relevante hashtags. Geef daarnaast afzonderlijk onderbouwd prijsadvies in euro."
+description: "Maak nauwkeurige, vindbare Vinted-titels, korte verkoopbeschrijvingen en prijsadvies voor tekno en elektronische vinylplaten op basis van releasenaam, foto, Discogs-ID of URL. Onderzoek eerst de exacte Discogs-release en vul ontbrekende feiten aan via webzoekopdrachten. Gebruik standaard Mint/Mint voor vinyl en hoes, tenzij de verkoper andere conditie of tegenstrijdig bewijs geeft. Lever een afzonderlijke titel, en een kopieerbare beschrijving met releasekop, intro van 1-2 regels, tracklist, details, conditie en hashtags. Toon vraagprijs en snelle-verkoopprijs los van de beschrijving. Vermeld in de uiteindelijke tekst geen externe websites, links of bronreferenties."
 ---
 
 # Vinted Tekno Vinyl
@@ -20,90 +20,131 @@ Maak een verkoopklaar zoekertje dat kopers de juiste plaat laat vinden en de sta
 
 Raadpleeg voor identificatie zo nodig de officiële Discogs-handleiding: https://support.discogs.com/hc/en-us/articles/360008602254-How-To-Find-Information-On-A-Vinyl-Record.
 
-## 2. Anti-placeholderprotocol: haal ontbrekende kerngegevens gericht op
+## 2. Anti-placeholderprotocol: verzamel ontbrekende kerngegevens
 
 Genereer geen zoekertje, concept of lege invulvelden zolang één van deze kerngegevens ontbreekt:
 
 - Betrouwbaar vastgestelde artiest en releasetitel. `Various Artists`, een aantoonbaar anonieme artiest of een officieel titelloze release is geldige informatie; verzin daarvoor geen naam of titel.
 - Minstens één onderbouwd genre of één stijl; een expliciete, geloofwaardige stijlaanduiding van de gebruiker telt ook.
-- Minstens één bevestigde track voor het vaste Tracklist-format. Zoek de volledige tracklijst zelfstandig op. Vraag bij een volledig ontbrekende tracklijst om de betreffende labelzijde of gekopieerde brongegevens; maak geen lege Tracklist. Benoem een aantoonbaar titelloze track als `Untitled`, zonder dit uit ontbrekende informatie af te leiden.
-- De staat van **dit exemplaar**: vinyl én hoes, als grade of voldoende concrete beschrijving. `Generieke hoes` en `Geen hoes` zijn geldige hoesgegevens.
-- Voldoende duidelijkheid over bekende schade of bijzondere uitvoering om geen misleidende tekst te schrijven. Vraag toelichting bij dubbelzinnige schade of tegenstrijdige grade; vereis geen bevestiging dat iedere denkbare bijzonderheid afwezig is.
+- Minstens één bevestigde track. Zoek de volledige tracklijst zelfstandig op. Vraag bij een ontbrekende tracklijst om een leesbare labelzijde of gekopieerde releasegegevens. Benoem een aantoonbaar titelloze track als `Untitled`, niet een track waarvan de titel onbekend is.
+- De identiteit van de aangeboden uitvoering moet voldoende betrouwbaar zijn. Vraag gericht door bij onopgeloste persingsverschillen of schade die het aanbod misleidend zou maken.
 
-Laat onbevestigde optionele metadata zoals jaartal, RPM of vinylkleur weg; blokkeer de tekst daar niet automatisch voor. Schrijf niet `geen bijzonderheden`, `zwart vinyl` of `originele persing` alleen omdat niets anders vermeld is.
+**Conditie is standaard ingevuld:** neem `Vinyl: Mint (M)` en `Hoes: Mint (M)` aan als door de gebruiker gekozen **advertentiestandaard**, ook als conditie niet apart vermeld is. Vraag daar dan niet telkens naar. Een expliciet genoemde andere staat overschrijft de standaard per onderdeel. Bij zichtbare schade of een andere concrete tegenspraak: gebruik de standaard niet stilzwijgend, vraag om bevestiging of de correcte grade. Foto's bewijzen Mint niet.
 
-Voer eerst zelfstandig het mogelijke brononderzoek uit. Stel daarna één korte, gebundelde vraag over de resterende onzekerheden. Geef geen half-af zoekertje. Bijvoorbeeld, alleen indien die gegevens ontbreken: “Wat is de staat van vinyl en hoes (bijv. VG+/VG), is de plaat getest en zijn er krassen, tikken, overslaan of andere gebreken?” Laat reeds beantwoorde onderdelen weg. Voor afspeelclaims is een testantwoord vereist; ontbreekt dat, laat de claim weg.
+Laat onbevestigde optionele metadata zoals jaartal, RPM, land of vinylkleur weg. Schrijf niet `geen bijzonderheden`, `zwart vinyl`, `originele persing`, `geseald` of `onbespeeld` alleen omdat er niets anders is gezegd.
 
-Toon bij verschillende kansrijke releases hoogstens twee of drie kandidaten met het onderscheidende kenmerk en vraag om catalogusnummer of passende detailfoto. Blokkeer bij versieverschillen die de aangeboden plaat, tracklijst of uitvoering onzeker maken. Vraag geen runout wanneer de beschikbare kenmerken al volstaan.
+Doe eerst zelfstandig het mogelijke brononderzoek. Stel daarna hoogstens één korte, gerichte vraag over essentiële onzekerheden. Geef geen half-af zoekertje. Vraag nooit opnieuw naar al gegeven informatie. Voor afspeelclaims is een expliciete testverklaring vereist; zonder die verklaring laat je de afspeelclaim weg.
 
-Bij ontoegankelijke bronnen: leg kort uit wat niet geverifieerd kon worden en vraag om een Discogs-link, gekopieerde releasegegevens of relevante foto. Maak niets op basis van vermeende toegang. Werk met voldoende leesbare of gekopieerde brongegevens van de gebruiker zonder dezelfde mislukte toegang opnieuw te proberen.
+Toon bij meerdere kansrijke releases maximaal twee of drie kandidaten met onderscheidende kenmerken en vraag om catalogusnummer of detailfoto. Vraag geen runout als andere kenmerken volstaan.
 
-## 3. Beschrijf conditie zonder afspeelkwaliteit te verzinnen
+Bij ontoegankelijke bronnen: leg kort uit welke essentiële informatie niet kon worden geverifieerd en vraag om een release-link, gekopieerde informatie of relevante foto. Maak niets op basis van vermeende toegang. De **onderzoeksvraag** mag zo nodig bronnen noemen; de **uiteindelijke verkoopoutput** bevat nooit bronverwijzingen of websitevermeldingen.
 
-- Scheid vinyl en hoes altijd. Neem een expliciete grade over tenzij concrete beschreven schade daarmee botst; vraag dan om verduidelijking vóór generatie.
-- Gebruik Discogs/Goldmine: M, NM/M-, VG+, VG, G+, G, F of P. Raadpleeg bij interpretatie de actuele officiële uitleg: https://support.discogs.com/hc/en-us/articles/360001566193-How-To-Grade-Items.
-- Ken nooit zelfstandig een grade toe op basis van een foto. Neem een voldoende concrete beschrijving in gewone taal over zonder een grade te bedenken. Vraag toelichting op vage woorden als `goed`, `topstaat` of `mooie staat`.
-- Onderscheid visueel beoordeeld, gedeeltelijk getest en volledig getest. Gebruik `speelt zonder overslaan`, `geen hoorbare tikken` of vergelijkbare uitspraken uitsluitend voor het door de verkoper geteste bereik. Maak van `VG+` nooit automatisch `speelt perfect`.
-- Benoem gemelde haarlijntjes, krassen, tikken, ruis, kromtrekken, stickers, schrijfwerk, ringwear en seam splits in gewone taal. Vermeld het hoorbare effect alleen als de verkoper dat heeft vastgesteld. Maak van een zichtbaar krasje geen bewezen hoorbare tik, of andersom.
-- Zwak wezenlijke schade niet af met `stoort niet`, `normaal voor de leeftijd` of `perfect voor DJ's`. Formuleer bijvoorbeeld bij expliciet bevestigde gegevens: `Vinyl: VG — hoorbare tikken op A1; volledig getest, slaat niet over.`
-- Vermeld `niet afgespeeld/getest` alleen als de verkoper dat zegt. Onbekende teststatus is geen bewijs dat de plaat niet getest is.
+## 3. Beschrijf conditie met Mint/Mint als standaard
+
+- **Standaard bij ontbrekende conditie:** vinyl en hoes elk `Mint (M)`. Dit is een gebruikersinstelling voor het advertentieconcept, **geen onafhankelijke vaststelling** van de staat en geen claim dat de plaat werd geïnspecteerd of getest.
+- Als de gebruiker een grade of schade expliciet doorgeeft, heeft die voorrang op de standaard. Respecteer aparte grades voor plaat en hoes, bijvoorbeeld M/NM of VG+/VG.
+- Kijk naar zichtbare of beschreven tegenstrijdigheden. Een duidelijke kreuk, kras, seam split of andere slijtage kan strijdig zijn met Mint; vraag dan gericht om opheldering vóór een onbeperkte Mint-claim. Ken nooit zelfstandig een alternatieve grade toe op basis van foto's.
+- Gebruik Discogs/Goldmine-grades: M, NM/M-, VG+, VG, G+, G, F en P. Normaliseer `M-` naar `Near Mint (NM)`, zonder de staat te verhogen. Officiële grade-uitleg mag intern geraadpleegd worden.
+- Schrijf `Beide in perfecte nieuwstaat.` uitsluitend als beide grades Mint zijn en er geen tegenstrijdig bewijs is. Bij andere grades: gebruik een korte, feitelijke conditiezin, zonder onterechte superlatieven.
+- `Mint` betekent niet automatisch `sealed`, `onbespeeld`, `volledig getest` of `speelt perfect`. Maak geen uitspraken over kraken, tikken of overslaan zonder bevestigde test.
+- Benoem bekende haarlijntjes, krassen, tikken, ruis, kromtrekken, stickers, schrijfwerk, ringwear en seam splits eerlijk en beknopt. Verberg wezenlijke schade nooit.
+- Gebruik `niet getest` alleen als de verkoper dit expliciet zegt. Onbekende teststatus is geen bewijs van geen test.
 
 ## 4. Kies relevante zoekwoorden
 
-- Geef identiteit voorrang: artiest, releasetitel of de kenmerkende label/cataloguscombinatie. Gebruik vervolgens, als er ruimte is, het formaat of de meest relevante stijl.
-- Behoud de juiste spelling en onderscheidende catalogusnummers. Laat database-disambiguatie zoals `(2)` weg uit artiestnamen wanneer dit alleen een Discogs-aanduiding is.
-- Zet zoekwoorden uit de titel waar passend in de tracklijst, metadata en relevante hashtags. Voeg geen inleidende verkoopparagraaf toe: het vaste beschrijvingsformat begint met `Tracklist`.
-- Gebruik `tekno`, `free tekno`, `tribe`, `hardtek`, `mental`, `acid` of `tribecore` alleen als bronnen of concrete gebruikersinformatie dit ondersteunen. Discogs `Techno` betekent niet automatisch `Tekno` of `Free Tekno`. Verzin geen stijl, scene of geluid uit hoesontwerp, labelnaam of reputatie alleen.
-- Gebruik `vinyl` en, indien bevestigd, bijvoorbeeld `12-inch` of `EP` voor herkenning. Noem een 12-inch niet automatisch een LP. Noem een release niet automatisch een album of compilatie omdat er meerdere tracks zijn.
-- Gebruik de vaste metadata-emoji's en afsluitende hashtags zoals hieronder beschreven. Vermijd irrelevante artiesten, dubbel opgenomen hashtags en hoofdletters voor nadruk. Houd de titel vrij van emoji's en hashtags. Claim geen algoritmevoordeel van hashtags.
-- Gebruik geen onbewezen claims als `zeldzaam`, `limited edition`, `cult classic`, `originele eerste persing`, `uitverkocht` of `collector's item`. Een hoge vraagprijs of weinig aangeboden exemplaren bewijst geen schaarste.
+- Geef identiteit voorrang: artiest, releasetitel en zo nodig een herkenbaar catalogusnummer; voeg geverifieerde (sub)genres en `12\" Vinyl` toe voor vindbaarheid.
+- De titel moet goed leesbaar en compact zijn. Gebruik **niet** langer de oude vaste limiet van 40 tekens. Respecteer de actuele Vinted-titellimiet alleen als die controleerbaar is; verzin geen platformlimiet.
+- Houd de titel vrij van emoji's, hashtags, website- en winkelverwijzingen.
+- Behoud juiste spelling en onderscheidende catalogusnummers. Laat database-disambiguatie zoals `(2)` weg wanneer dat geen onderdeel van de artiestennaam is.
+- Gebruik `tekno`, `freetekno`, `tribe`, `hardtek`, `mental`, `acid` of `tribecore` uitsluitend als concrete gebruikersinformatie of onderzoek die stijl ondersteunt. Discogs `Techno` betekent niet automatisch `Tekno`.
+- Noem een 12-inch niet automatisch een LP; gebruik EP, RPM of persingsgegevens uitsluitend indien bevestigd.
+- Gebruik originele tracktitels en artiestnamen. Vermijd onbewezen claims zoals `rare`, `limited edition`, `collector's item`, `originele eerste persing` of `uitverkocht`.
+- Plaats relevante genres, artiesten en label in een kleine reeks hashtags, maar vermijd irrelevante zoekwoorden en duplicaten. Claim geen gegarandeerd algoritmevoordeel.
 
 ## 5. Pas de Various-regel toe
 
 Bij `Various`, `Various Artists`, `V/A` of `VA` als releaseartiest:
 
-- Laat de verzamelartiest volledig weg uit de **titel**; begin direct met de releasetitel. Bij een officieel titelloze release mag de bevestigde label/cataloguscombinatie als herkenbare titel dienen.
-- Benoem na de vaste metadata `ℹ️ Compilatie met diverse artiesten` wanneer het een compilatie is; gebruik anders `ℹ️ Release met diverse artiesten`. Meerdere uitvoerders bewijzen op zichzelf geen compilatie.
-- Vermeld alle bevestigde tracks in de juiste kant/trackvolgorde met individuele artiesten, volgens `A1 — Artiest – Tracktitel`. Verzin geen tracknamen, artiesten, volgorde of koppeling. Bij onbekende tracktitels kan een bevestigd tracknummer met artiest volstaan.
-- Neem geen mastertracklijst over wanneer de aangeboden release daarvan kan verschillen. Bij een incomplete tracklijst en verder betrouwbare release-identificatie: vermeld alleen bevestigde tracks zonder volledigheid te suggereren.
+- Laat de generieke verzamelartiest weg uit de **titel**; begin met de releasetitel. Bij officieel titelloze releases mag de geverifieerde label/cataloguscombinatie als herkenbare titel dienen.
+- Schrijf in de tracklist iedere bevestigde uitvoerder bij de juiste track: `A1 – Artiest – Tracktitel`. Geen fictieve artiesten, titels of posities.
+- Noem `compilatie` alleen als die typering is bevestigd, niet enkel omdat er meerdere uitvoerders op staan.
+- Neem nooit automatisch de mastertracklijst over als de specifieke persing kan afwijken. Bij een onvolledige tracklijst: vermeld alleen bevestigde tracks en zeg buiten de advertentie kort dat de lijst onvolledig is, of vraag eerst om ontbrekende kerngegevens.
+- Voeg nooit standaard `Various Artists` toe in de titel of als misleidende trackartiest.
 
-## 6. Volg het screenshotformat en houd prijsadvies apart
+## 6. Vast outputformat — zoals de goedgekeurde Phosphene 05-listing
 
-Na bevestiging van de kerngegevens:
+Lever **precies drie onderdelen**, standaard in het Nederlands:
 
-1. Plaats **Titel:** boven een afzonderlijk `text`-codeblok met uitsluitend één titelregel.
-2. Plaats **Beschrijving:** boven een afzonderlijk `text`-codeblok met uitsluitend de volledige beschrijving.
-3. Geef daaronder **Prijsadvies:** als gewone tekst buiten beide codeblokken, volgens sectie 7. Maak geen derde codeblok. Laat het prijsadvies alleen weg als de gebruiker dat uitdrukkelijk vraagt.
+1. **Vinted titel** — één afzonderlijk kopieerbaar tekstblok, uitsluitend één titelregel.
+2. **Vinted beschrijving** — één afzonderlijk kopieerbaar tekstblok met alle regels van de advertentie, zonder nabeschouwing.
+3. **Prijsadvies** — gewone tekst, strikt buiten de kopieerbare advertentie. Geef aanbevolen vraagprijs en snelle-verkoopprijs als daarvoor betrouwbare gegevens zijn.
 
-Gebruik geen invulvelden, placeholders of alternatieve versies. Houd onderzoeksnotities, bronlinks, citaties en prijsadvies buiten de kopieerblokken. Zet bronverwijzingen voor het prijsadvies bij de bijbehorende onderbouwing; zet eventueel vereiste releasecitaties direct na het beschrijvingsblok. Geef geen voorwoord, marketingparagraaf of extra nabeschouwing.
+Gebruik bij geschikte UI een aparte schrijf-/kopieerblok voor titel en een voor beschrijving, anders twee `text`-codeblokken. Geen derde kopieerblok, geen alternatieve versies of invulvelden. Geen voorwoord, marketingparagraaf, onderzoekslog of ongevraagde nabeschouwing.
 
-**Titel**
+### Titel
 
-- Gebruik maximaal **40 tekens inclusief spaties en leestekens**. Dit is de gewenste limiet van deze skill, geen claim over de actuele Vinted-platformlimiet.
-- Begin normaal met artiest en een herkenbare releasetitel; pas bij Various de afwijking toe. Voeg een bevestigde stijl of formaat toe als dit nog past.
-- Schrap eerst bijvoeglijke naamwoorden, extra stijlen en formaat voordat je identiteit inkort. Kort lange namen betekenisvol in; snijd niet blind midden in een woord. Zet de volledige namen in de beschrijving.
-- Tel de tekens daadwerkelijk vóór levering, met beschikbare code indien nodig; bijvoorbeeld `len(title)` in Python zonder eind-newline. Vermijd emoji's zodat de telling eenduidig blijft. Herformuleer tot de limiet gehaald is.
+Voorkeursformaat:
 
-**Beschrijving**
+`Artiest / Release – Titel | Belangrijkste genre / Subgenre | 12" Vinyl`
 
-- Begin altijd met de letterlijke eerste regel `Tracklist`, zonder dubbele punt of Markdownopmaak. Zet daar direct onder de bevestigde tracks, één per regel. Gebruik voor alle releases `positie — artiest – tracktitel`, bijvoorbeeld `A — Heisa – Double Mitsubishi`. Behoud bronposities zoals `A`, `A1`, `B1` en `B2`; maak van `A` niet automatisch `A1`. Gebruik de bevestigde trackartiest, of de releaseartiest als die aantoonbaar alle tracks uitvoert. Ontbreekt de trackartiest, laat die component weg zonder een koppeling te verzinnen.
-- Zet direct onder de tracklijst de volgende metadata, één regel per gegeven, in exact deze volgorde. Gebruik de emoji als regelprefix; voeg geen streepjes, bullettekens of Markdownvetdruk toe.
+- Pas dit formaat aan een plaat met slechts één artiest, een compilatie of een titelloze release aan. Voeg nooit overbodige scheidingstekens of onbewezen genres toe.
+- Begin bij voorkeur met de werkelijke herkenbare release-identiteit; gebruik een label/cataloguscombinatie als dat de meest betrouwbare identificatie is.
+- Controleer op leesbaarheid en relevantie, niet op een fictieve 40-tekenlimiet.
 
-| Regelprefix | Inhoud |
-| --- | --- |
-| `💿 Vinyl:` | Grade of concrete conditiebeschrijving van dit exemplaar, plus bekende schade. |
-| `📀 Sleeve:` | Grade of concrete hoesconditie; bijvoorbeeld `Generieke hoes` of `Geen hoes`. |
-| `🏷️ Label:` | Bevestigd label. |
-| `🔢 Catalogusnummer:` | Bevestigd catalogusnummer met oorspronkelijke schrijfwijze. |
-| `📅 Jaar:` | Bevestigd releasejaar van deze uitvoering. |
-| `📏 Formaat:` | Bevestigd formaat zoals `12"`, `10"` of `2 × 12"`; voeg EP, LP of RPM alleen toe wanneer bevestigd. |
+### Beschrijving
 
-- Schrijf grades in het herkenbare volledige formaat: `Mint (M)`, `Near Mint (NM)`, `Very Good Plus (VG+)`, `Very Good (VG)`, `Good Plus (G+)`, `Good (G)`, `Fair (F)` of `Poor (P)`. Normaliseer `M-` naar `Near Mint (NM)` zonder de staat te verhogen. Neem een grade nooit over uit de voorbeeldafbeelding voor een ander exemplaar.
-- Laat onbekende optionele metadatarijen volledig weg, zonder `onbekend`, lege waarden of invulvelden. Vinyl en Sleeve blijven verplicht. Is de tracklijst gedeeltelijk, vermeld de bevestigde tracks en voeg na de metadata `ℹ️ Alleen bevestigde tracks vermeld` toe.
-- Voeg relevante, bevestigde bijzonderheden of testinformatie zo nodig toe op een korte `ℹ️`-regel na de vaste metadata; pas daar ook de Various-regel toe. Verberg schade nooit om het screenshotformat compacter te houden.
-- Eindig met één of enkele opeenvolgende regels hashtags, zoals in de screenshot. Gebruik doorgaans 5–18 unieke, werkelijk passende tags; forceer geen minimum als minder tags onderbouwd zijn. Kies uit bevestigde stijlen, trackartiesten, label, eventueel catalogusnummer en formaat, plus herkenbare vinyltermen als `#vinyl` en `#vinylrecord`. Gebruik `#12inch` alleen voor bevestigd 12-inch vinyl. Maak namen zoekbaar door spaties en leestekens te verwijderen; verzin geen nieuwe aliases.
-- Kopieer nooit blind de genres of hashtags uit de screenshot. Tags zoals `#freetekno`, `#tribe`, `#acidcore`, `#hardtek`, `#mentaltribe`, `#hardcore`, `#undergroundtechno`, `#rave` en `#soundsystem` moeten bij deze release passen en door bron- of concrete gebruikersinformatie ondersteund zijn. Behoud eventuele hashtags die de gebruiker uitdrukkelijk opgeeft, behalve bij een duidelijke feitelijke tegenspraak; bespreek die dan kort.
-- Voeg geen losse zoekwoordparagraaf, verkoopslogan, uitnodiging of standaardclaims over verpakking, verzending, korting, schoonmaken of retouren toe. De beschrijving bestaat uitsluitend uit Tracklist, metadata, eventueel noodzakelijke bijzonderheden en hashtags. Plaats geen prijs of onderhandelingsminimum in de beschrijving.
+**Exacte volgorde** en gebruik in de definitieve kopieerbare tekst:
+
+```text
+RELEASE / ARTIEST – TITEL 👁️
+
+Een korte, feitelijk ondersteunde muziekintro van maximaal 1–2 regels.
+
+💿 TRACKLIST
+A1 – Artiest – Tracktitel
+A2 – Artiest – Tracktitel
+B1 – Artiest – Tracktitel
+B2 – Artiest – Tracktitel
+
+🔊 DETAILS
+Label: Bevestigd label
+Catalogusnummer: Bevestigd catalogusnummer
+Jaar: Bevestigd persingsjaar
+Formaat: 12" Vinyl EP
+Genre: Bevestigd genre / subgenre
+
+✨ CONDITIE
+Vinyl: Mint (M)
+Hoes: Mint (M)
+Beide in perfecte nieuwstaat.
+
+#Genre #Subgenre #Artiest #Label #Vinyl
+```
+
+Dit voorbeeld toont **alleen structuur**: kopieer geen voorbeeldinhoud naar een onbekende release. Leg ontbrekende metadata nooit als placeholders voor aan de koper.
+
+**Regels voor het beschrijvingsblok:**
+
+- Start met een hoofdletterkop in **UPPERCASE**: release-identiteit/titel gevolgd door één passende emoji (bijvoorbeeld 👁️). Kies geen standaardemoji die evident ongeschikt is.
+- Daarna **maximaal 1–2 korte regels introductie**, niet langer. Beschrijf uitsluitend geverifieerde muziekstijlen, sfeer of scene; verzin geen 303-klanken, BPM, psychedelische effecten of schaarste als die niet onderbouwd zijn.
+- Plaats **direct daarna** `💿 TRACKLIST`. Iedere track één regel: `positie – artiest – tracktitel` met en-dash `–`. Behoud bronposities (`A`, `A1`, `B1` ...); maak van `A` niet automatisch `A1`. Gebruik alleen aangetoonde trackartiesten. Geen lege tracks of denkbeeldige volgorde.
+- Plaats onder de tracklist `🔊 DETAILS` met in deze vaste volgorde: `Label:`, `Catalogusnummer:`, `Jaar:`, `Formaat:`, `Genre:`. Laat onbevestigde optionele velden weg, zonder de overige volgorde te veranderen.
+- Plaats daaronder `✨ CONDITIE` met `Vinyl: ...` en `Hoes: ...`; gebruik standaard tweemaal `Mint (M)`, tenzij de gebruiker of tegenstrijdig bewijs anders aangeeft. Bij Mint/Mint zonder bekende gebreken eindig je dit onderdeel met `Beide in perfecte nieuwstaat.`
+- Benoem bij werkelijke schade of andere grades de conditie feitelijk in hetzelfde onderdeel. Voeg nooit `geseald` of `speelt perfect` toe zonder bevestiging.
+- Eindig met **ongeveer 10–15 relevante, unieke hashtags** op één compacte regel, of minder als er niet genoeg feitelijk passende termen zijn. Prioriteit: geverifieerde genres, subgenres, artiesten, label, releasenaam en vinylcultuur. Geen irrelevante hashtagvulling.
+- Gebruik compacte witregels **tussen** kop, intro, secties en hashtags, maar geen extra alinea's. De regel(s) tussen hoofdkop en tracklist zijn strikt de introductie, verder niets.
+- Zet **geen prijsadvies, verzendinformatie, verkoopbeloften of verwijzingen naar externe bronnen** in de beschrijving. Geen URL's, domeinnamen, hyperlinks, websites, stores, `volgens Discogs`, `bron:`, verkoperverwijzingen of citaties. Leg onderzoeksresultaten om in directe, verifieerbare feiten (labelnaam zelf is natuurlijk wel toegestaan).
+- **Ook buiten de kopieerblokken**: zet in de uiteindelijke gebruikersoutput geen externe websitevermeldingen, links of bronreferenties. Bronnen mogen intern gebruikt worden voor controle en prijsstelling, maar worden niet afgedrukt.
+
+### Prijsadvies
+
+Onder de twee kopieerblokken:
+
+`Aanbevolen vraagprijs: €X`
+
+`Snelle verkoop: €Y`
+
+Geef desgewenst maximaal één korte zin over het prijsvertrouwen op basis van gecontroleerde verkopen/vraagprijzen, **zonder een website of externe bron te noemen**. Maak duidelijk wanneer prijzen indicatief zijn. Als er onvoldoende prijsdata zijn, noem geen verzonnen bedragen en vermeld dat een betrouwbaar prijsadvies nog ontbreekt.
 
 ## 7. Geef een actueel, onderbouwd prijsadvies
 
@@ -126,8 +167,21 @@ Onderzoek prijzen standaard zodra release en conditie voldoende vaststaan. Gebru
 
 ### Presenteer buiten de beschrijving
 
-Begin met `Prijsadvies:` en één aanbevolen **vraagprijs in euro, exclusief verzending en eventuele koperskosten**. Voeg hoogstens een nuttige bandbreedte toe, gevolgd door 1–3 korte zinnen onderbouwing. Vermeld gebruikte bron/type (gerealiseerde verkopen, geaggregeerde statistieken of actuele vraagprijzen), relevante grades, aantal vergelijkbare verkopen indien bekend, verkoopperiode/raadpleegdatum en zekerheid (`hoog`, `middel` of `laag`) op basis van de kwaliteit van de gegevens. Citeer de werkelijk geraadpleegde prijsbronnen bij de onderbouwing. Presenteer het bedrag niet als gegarandeerde verkoopopbrengst of nettowinst. Voeg prijsadvies niet toe aan een advertentie op Vinted: lever uitsluitend de tekst en het advies, tenzij de gebruiker apart opdracht geeft om te publiceren.
+Bereken een aanbevolen **vraagprijs in euro, exclusief verzending en koperskosten**. Bepaal zo mogelijk óók een lager **snelle-verkoopbedrag** op basis van echte marktgegevens; verlaag niet willekeurig met een vast percentage en verzin geen bedrag zonder onderbouwing. Rond praktisch af naar hele euro's of €0,50.
+
+Gebruik het formaat `Aanbevolen vraagprijs: €...` en `Snelle verkoop: €...` buiten beide kopieerblokken, gevolgd door hoogstens één korte zin over de mate van zekerheid. Onderscheid gerealiseerde prijzen en vraagprijzen in je interne onderzoek, maar **noem of citeer in de definitieve gebruikersoutput geen websites, externe winkelnamen, bronlinks of referenties**. Als er geen betrouwbare getallen zijn: `Prijsadvies: nog niet betrouwbaar vast te stellen` met een heel korte reden. Presenteer het bedrag nooit als gegarandeerde verkoopopbrengst of nettowinst.
+
+Prijsadvies hoort nooit in de Vinted-advertentietekst; publiceer nooit rechtstreeks op Vinted tenzij de gebruiker daar afzonderlijk om vraagt.
 
 ## 8. Controleer vóór levering
 
-Controleer identiteit en uitvoering, feitelijke ondersteuning van elk detail, aparte conditie van plaat en hoes, de Various-regel en correcte track/artistkoppeling. Controleer dat de titel maximaal 40 tekens bevat en dat er precies twee `text`-codeblokken staan. Controleer dat de beschrijving begint met `Tracklist`, de bekende metadatarijen in de voorgeschreven volgorde met emoji's bevat, en eindigt met relevante hashtags; gebruik geen intro of gewone bullets. Controleer dat prijsadvies buiten de kopieerblokken staat, op verifieerbare data berust, vraag- en verkoopprijzen onderscheidt en geen verzendkosten meetelt. Bij onvoldoende prijsdata moet dat expliciet zijn. Verwijder placeholders en verzonnen verkoopbeloften en herstel fouten vóór levering.
+- Release/uitvoering, trackvolgorde, artiest-trackkoppeling, jaar, label, catalogusnummer en genres zijn voldoende onderbouwd; geen gegevens verzonnen.
+- De titel is helder, zoekbaar en **niet kunstmatig tot 40 tekens beperkt**; Various-regel gevolgd.
+- Er zijn precies **twee** los kopieerbare tekstblokken, plus afzonderlijk prijsadvies.
+- De beschrijving begint met een UPPERCASE releasekop en passende emoji, gevolgd door **slechts 1–2 korte introductieregels**, dan `💿 TRACKLIST`.
+- Daarna `🔊 DETAILS` in de juiste volgorde, vervolgens `✨ CONDITIE` en ten slotte relevante hashtags.
+- Conditie is standaard `Vinyl: Mint (M)` en `Hoes: Mint (M)`, behalve bij expliciet andere staat of tegenstrijdige schade. Geen onbewezen afspeel-, sealed- of nieuwclaims buiten wat de grade rechtvaardigt.
+- Geen ontbrekende velden als placeholders, geen lange intro, geen extraverhaal tussen introductie en tracklist, geen ongefundeerde muziekstijlen.
+- **Geen externe websiteverwijzingen, URL's, citaties, bronvermeldingen of winkelnamen in de definitieve gebruikersoutput**; onderzoek blijft achter de schermen.
+- Prijsadvies is apart, maakt onderscheid tussen aanbevolen vraagprijs en snelle verkoop, en is niet verzonnen. Indien onvoldoende prijsdata, benoem dat kort.
+
