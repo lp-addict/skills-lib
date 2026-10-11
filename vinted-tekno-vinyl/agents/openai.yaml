@@ -1,6 +1,6 @@
 interface:
   display_name: "Vinted Tekno Vinyl"
-  short_description: "Vinylzoekertjes in vast format met onderbouwd prijsadvies"
+  short_description: "Compacte Vinted-listings met Mint/Mint-default en prijsadvies"
   default_prompt: "Gebruik $vinted-tekno-vinyl om van deze releasenaam of foto een Vinted-zoekertje te maken met Tracklist, specificaties met emoji's, hashtags en een afzonderlijk prijsadvies."
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
