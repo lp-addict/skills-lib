@@ -96,29 +96,28 @@ Voorkeursformaat:
 **Exacte volgorde** en gebruik in de definitieve kopieerbare tekst:
 
 ```text
-RELEASE / ARTIEST – TITEL 👁️
+RELEASE / ARTIEST – TITEL
 
-Een korte, feitelijk ondersteunde muziekintro van maximaal 1–2 regels.
 
-💿 TRACKLIST
+TRACKLIST
 A1 – Artiest – Tracktitel
 A2 – Artiest – Tracktitel
 B1 – Artiest – Tracktitel
 B2 – Artiest – Tracktitel
 
-🔊 DETAILS
+DETAILS
 Label: Bevestigd label
 Catalogusnummer: Bevestigd catalogusnummer
 Jaar: Bevestigd persingsjaar
 Formaat: 12" Vinyl EP
 Genre: Bevestigd genre / subgenre
 
-✨ CONDITIE
+STAAT 
 Vinyl: Mint (M)
 Hoes: Mint (M)
 Beide in perfecte nieuwstaat.
 
-#Genre #Subgenre #Artiest #Label #Vinyl
+#Genre #Subgenre #Artiest #Label #Vinyl #ExtraTags
 ```
 
 Dit voorbeeld toont **alleen structuur**: kopieer geen voorbeeldinhoud naar een onbekende release. Leg ontbrekende metadata nooit als placeholders voor aan de koper.
@@ -177,7 +176,7 @@ Prijsadvies hoort nooit in de Vinted-advertentietekst; publiceer nooit rechtstre
 
 - Release/uitvoering, trackvolgorde, artiest-trackkoppeling, jaar, label, catalogusnummer en genres zijn voldoende onderbouwd; geen gegevens verzonnen.
 - De titel is helder, zoekbaar en **niet kunstmatig tot 40 tekens beperkt**; Various-regel gevolgd.
-- Er zijn precies **twee** los kopieerbare tekstblokken, plus afzonderlijk prijsadvies.
+- Er zijn precies **twee** los kopieerbare tekstblokken (Titel en Beschrijving), plus afzonderlijk prijsadvies.
 - De beschrijving begint met een UPPERCASE releasekop en passende emoji, gevolgd door **slechts 1–2 korte introductieregels**, dan `💿 TRACKLIST`.
 - Daarna `🔊 DETAILS` in de juiste volgorde, vervolgens `✨ CONDITIE` en ten slotte relevante hashtags.
 - Conditie is standaard `Vinyl: Mint (M)` en `Hoes: Mint (M)`, behalve bij expliciet andere staat of tegenstrijdige schade. Geen onbewezen afspeel-, sealed- of nieuwclaims buiten wat de grade rechtvaardigt.
