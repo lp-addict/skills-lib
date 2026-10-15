@@ -1,0 +1,11 @@
+interface:
+  display_name: "Vinted Pickup Passes"
+  short_description: "Find uncollected Vinted parcels and make an original-QR pickup PDF"
+  default_prompt: "Use $vinted-pickup-passes to search my connected Outlook for Vinted parcels that became ready to collect after the most recent Monday at 18:00 Europe/Brussels time. Exclude later pickup confirmations, in-transit shipments, outgoing sales and old arrivals; deduplicate notices and bundles. Return a pickup list and a shareable PDF with actual original carrier-issued QR images, tracking numbers, collection codes, addresses and deadlines. Never invent QR codes."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
