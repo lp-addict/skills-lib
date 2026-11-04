@@ -1,16 +1,32 @@
-# skills-lib
+# Skills Library
 
-Reusable AI skills for ChatGPT and Codex.
+Reusable AI skills for ChatGPT and Codex, focused on vinyl listings and Vinted parcel collection.
 
-## Skills
+## Available skills
 
-| Skill | Status | Purpose |
+| Skill | What it does | Status |
 | --- | --- | --- |
-| [Vinted Vinyl](vinted-vinyl/SKILL.md) | Current | Research, create, price, retrieve and manage Vinted vinyl listings and their archive. Replaces both legacy vinyl skills below. |
-| [Vinted Tekno Vinyl](vinted-tekno-vinyl/SKILL.md) | **Deprecated** | Legacy listing skill; use Vinted Vinyl instead. |
-| Vinted Vinyl Archive | **Deprecated** | Legacy archive skill; use Vinted Vinyl instead. This legacy skill is not stored in this repository. |
-| [Vinted Pickup Passes](vinted-pickup-passes/SKILL.md) | Current | Search Outlook for Vinted parcels waiting at pickup points; reconcile confirmations and create shareable PDFs with **original** carrier QR codes, tracking and pickup codes. |
+| [Vinted Vinyl](vinted-vinyl/SKILL.md) | Researches and prices records, prepares Vinted listings, and finds, saves or updates listings and photos in the existing archive. | Current |
+| [Vinted Pickup Passes](vinted-pickup-passes/SKILL.md) | Finds Vinted parcels awaiting collection in Outlook and prepares a PDF with verified original carrier QR codes and pickup details when available. | Current |
+| [Vinted Tekno Vinyl](vinted-tekno-vinyl/SKILL.md) | Earlier vinyl listing skill, retained for reference. Use Vinted Vinyl for new work. | **Deprecated** |
 
-Each skill has a `SKILL.md` instruction file and `agents/openai.yaml` configuration. Refer to the skill by name or invoke `$vinted-pickup-passes` / `$vinted-vinyl` in a compatible agent environment. Deprecation identifies the replacement; it does not itself uninstall any previously installed skills.
+The former **Vinted Vinyl Archive** skill is also deprecated and replaced by Vinted Vinyl. Its separate skill files are not stored in this repository. Deprecation does not automatically uninstall previously installed skills.
 
-**Privacy:** Pickup passes contain sensitive one-time collection credentials. Generate them locally/in the assistant workspace; never commit real QR codes, tracking values, personal notifications or PDF passes to this repo.
+## Using a skill
+
+Open a skill's `SKILL.md` for its instructions and requirements. In a compatible environment where it is installed, invoke it by name, for example `$vinted-vinyl` or `$vinted-pickup-passes`. Availability of connected services and tools depends on the environment.
+
+Vinted Vinyl contains focused reference files for research, listing format, pricing and archive operations. It uses the configured existing archive; the repository is not the archive itself.
+
+## Repository layout
+
+- `vinted-vinyl/` — unified vinyl skill, references and configuration.
+- `vinted-pickup-passes/` — parcel lookup and pickup-pass skill.
+- `vinted-tekno-vinyl/` — deprecated predecessor retained for reference.
+- [CONTRIBUTING.md](CONTRIBUTING.md) — conventions for adding, updating and documenting skills.
+
+Each skill has a `SKILL.md` and agent configuration; supporting references and assets are included where needed.
+
+## Privacy
+
+Pickup passes may contain one-time collection credentials. Never commit real QR codes, tracking values, personal notifications, email content or generated pickup PDFs. Keep credentials and secrets out of the repository; review configuration and examples before sharing them.
