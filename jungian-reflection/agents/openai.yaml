@@ -1,0 +1,14 @@
+interface:
+  display_name: Jungian Reflection
+  short_description: Explore Jungian ideas, dreams, symbols, and shadow work
+  default_prompt: Use $jungian-reflection to explore a recurring dream, starting with
+    what its images mean to me.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
