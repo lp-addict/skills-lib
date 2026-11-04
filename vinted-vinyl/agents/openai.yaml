@@ -1,0 +1,13 @@
+interface:
+  display_name: Vinted Vinyl
+  short_description: Maak, beheer en archiveer vinylzoekertjes
+  default_prompt: Gebruik $vinted-vinyl om mijn vinylzoekertjes te maken of te beheren.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
