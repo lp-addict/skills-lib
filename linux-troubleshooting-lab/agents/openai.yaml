@@ -1,0 +1,14 @@
+interface:
+  display_name: Linux Troubleshooting Lab
+  short_description: Safe Linux failure diagnosis and recovery exercises
+  default_prompt: Use $linux-troubleshooting-lab to give me a realistic 30-minute
+    Linux troubleshooting exercise with a worked solution and verification steps.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
