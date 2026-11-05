@@ -9,10 +9,10 @@ The root is Vinted Vinyl Archive, containing this archive-specification.md and R
 | Relative path under Releases | Purpose |
 | --- | --- |
 | `discogs-<release-id>__<catalog-slug>__<artist-title-slug>/release.json` | Exact pressing, verified facts, provenance, child folder IDs |
-| `…/listings/nl-NL__M-M/title.txt` | One final buyer-facing title, UTF-8 |
-| `…/listings/nl-NL__M-M/description.txt` | Complete final description, UTF-8, original line breaks |
-| `…/listings/nl-NL__M-M/listing.json` | Language, grades, revision, readiness, text file IDs |
-| `…/listings/nl-NL__M-M/price.json` | Optional dated prices and supporting evidence |
+| `…/listings/en-GB__M-M/title.txt` | One final buyer-facing title, UTF-8 |
+| `…/listings/en-GB__M-M/description.txt` | Complete final description, UTF-8, original line breaks |
+| `…/listings/en-GB__M-M/listing.json` | Language, grades, revision, readiness, text file IDs |
+| `…/listings/en-GB__M-M/price.json` | Optional dated prices and supporting evidence |
 | `…/copies/copy-001/copy.json` | This physical item's grades, status, ordered photo IDs |
 | `…/copies/copy-001/images/01-front.jpg` | Original front photo |
 | `…/copies/copy-001/images/02-back.jpg` | Original back photo |
@@ -20,7 +20,7 @@ The root is Vinted Vinyl Archive, containing this archive-specification.md and R
 
 These are patterns, not empty sample listings. Create only files needed for actual records. Preserve actual image extensions/MIME types; never convert merely to match an example. Continue numbering for label B, surface, runout and defects; preserve the user's chosen order when supplied.
 
-Normalize display-name slugs to lowercase ASCII with hyphens; manifests and IDs determine identity. Replace + with plus in grade path tokens: VG+/VG+ becomes nl-NL__VGplus-VGplus; retain real grades in JSON. Use pending-<uuid>__<slug> if exact identity is unresolved, with draft status. Never use a Discogs master ID as a release ID. Resolve a pending folder by renaming/updating it in place, preserving its ID.
+Normalize display-name slugs to lowercase ASCII with hyphens; manifests and IDs determine identity. Replace + with plus in grade path tokens: VG+/VG+ becomes en-GB__VGplus-VGplus; retain real grades in JSON. Use pending-<uuid>__<slug> if exact identity is unresolved, with draft status. Never use a Discogs master ID as a release ID. Resolve a pending folder by renaming/updating it in place, preserving its ID.
 
 ## Common JSON rules
 
@@ -38,7 +38,7 @@ Use discogs-<id> as verified release_key; otherwise retain the pending UUID. Opt
 
 Require release_key, language, media_grade, sleeve_grade, condition_basis (user_default/seller_statement/mixed), status (draft/ready), title_file, description_file, source_copy_id (nullable), price_file (nullable), plus common fields. Ready means complete title/description read back for the stated grades; it does not imply photos or a current price.
 
-Save the existing approved description format: uppercase release header and emoji; 1–2 intro lines; 💿 TRACKLIST; 🔊 DETAILS; ✨ CONDITIE; relevant hashtags. Preserve approved text exactly. Keep prices and sources elsewhere. Title contains only the title. Each language/grade combination has its own folder. For materially different same-grade wording, add __variant-02 and variant_note instead of overwriting copy-specific edits.
+For new or rewritten listings, follow listing-format.md: English title and description; uppercase release header; plain TRACKLIST, DETAILS and CONDITION headings; `-` or `*` bullets; no emojis, intro filler or generic sales sentences; relevant hashtags. Save the final approved text exactly. Preserve existing language variants; do not rename Dutch folders or translate stored text during exact retrieval. Default new English variants to en-GB. Keep prices and sources elsewhere. Title contains only the title. Each language/grade combination has its own folder. For materially different same-grade wording, add __variant-02 and variant_note instead of overwriting copy-specific edits.
 
 Retain source_copy_id to trace condition-dependent wording. Before reusing for another item, remove/adapt defects, test claims and sealed claims unless true of that item. M/M is Dave's drafting default, not inspection evidence.
 
