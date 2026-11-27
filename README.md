@@ -9,7 +9,7 @@ Reusable AI skills for ChatGPT and Codex, covering prompt engineering, vinyl lis
 | [Prompt Engineer](prompt-engineer/SKILL.md) | Designs, repairs and evaluates prompts using concrete failure cases, output contracts and matched comparisons. | Current |
 | [Linux Troubleshooting Lab](linux-troubleshooting-lab/SKILL.md) | Creates varied, safe Linux failure-diagnosis and recovery exercises with diagnostic commands, hints, worked solutions, verification and optional LFCS, LPIC-1 or RHCSA alignment. | Current |
 | [Jungian Reflection](jungian-reflection/SKILL.md) | Explains Jungian ideas and supports reflective exploration of dreams, symbols, shadow work and Jungian texts in English or Dutch. | Current |
-| [Vinted Vinyl](vinted-vinyl/SKILL.md) | Researches and prices records, prepares English Vinted listings with plain bullets and no emojis or filler, and finds, saves or updates listings and photos in the existing archive. | Current |
+| [Vinted Vinyl](vinted-vinyl/SKILL.md) | Groups mixed uploads by physical copy, processes listings in arrival order, and verifies archive and listing-register updates. | Current |
 | [Vinted Pickup Passes](vinted-pickup-passes/SKILL.md) | Finds Vinted parcels awaiting collection in Outlook and prepares a PDF with verified original carrier QR codes and pickup details when available. | Current |
 | [Vinted Tekno Vinyl](vinted-tekno-vinyl/SKILL.md) | Earlier vinyl listing skill, retained for reference. Use Vinted Vinyl for new work. | **Deprecated** |
 
@@ -20,6 +20,8 @@ The former **Vinted Vinyl Archive** skill is also deprecated and replaced by Vin
 Open a skill's `SKILL.md` for its instructions and requirements. In a compatible environment where it is installed, invoke it by name, for example `$prompt-engineer`, `$linux-troubleshooting-lab`, `$jungian-reflection`, `$vinted-vinyl` or `$vinted-pickup-passes`. Availability of connected services and tools depends on the environment.
 
 Prompt Engineer contains six focused guides for prompt patterns, optimization, evaluation, structured outputs, system instructions and context management. It was adapted from Jeff Allan's MIT-licensed claude-skills project and retains its attribution and license.
+
+For mixed uploads, Vinted Vinyl groups photos before research, processes actionable records one at a time and delivers ordered results after the queue drains. Corrections update the existing item. An unresolved item keeps its place and its question while other items finish. See the [batch workflow](vinted-vinyl/references/batch-processing.md) and [review scenarios](vinted-vinyl/REVIEW.md). Each saved release has a copyable `Listing.md`; posting-ready text also goes to the configured listing register unless the request is a preview or explicitly read-only.
 
 Vinted Vinyl contains focused reference files for research, listing format, pricing and archive operations. Titles and descriptions default to English, preserving original artist and track names. Descriptions use plain headings and `-` or `*` bullets with concrete facts only; no emojis, generic introductions or sales pitches. New listings and relists use this format; exact archive retrieval preserves saved wording. It uses the configured existing archive; the repository is not the archive itself.
 

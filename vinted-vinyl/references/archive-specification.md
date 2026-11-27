@@ -8,7 +8,8 @@ The root is Vinted Vinyl Archive, containing this archive-specification.md and R
 
 | Relative path under Releases | Purpose |
 | --- | --- |
-| `discogs-<release-id>__<catalog-slug>__<artist-title-slug>/release.json` | Exact pressing, verified facts, provenance, child folder IDs |
+| `<release folder>/release.json` | Exact pressing, verified facts, provenance, child folder IDs |
+| `…/Listing.md` | Copyable Vinted text for this release |
 | `…/listings/en-GB__M-M/title.txt` | One final buyer-facing title, UTF-8 |
 | `…/listings/en-GB__M-M/description.txt` | Complete final description, UTF-8, original line breaks |
 | `…/listings/en-GB__M-M/listing.json` | Language, grades, revision, readiness, text file IDs |
@@ -20,7 +21,11 @@ The root is Vinted Vinyl Archive, containing this archive-specification.md and R
 
 These are patterns, not empty sample listings. Create only files needed for actual records. Preserve actual image extensions/MIME types; never convert merely to match an example. Continue numbering for label B, surface, runout and defects; preserve the user's chosen order when supplied.
 
-Normalize display-name slugs to lowercase ASCII with hyphens; manifests and IDs determine identity. Replace + with plus in grade path tokens: VG+/VG+ becomes en-GB__VGplus-VGplus; retain real grades in JSON. Use pending-<uuid>__<slug> if exact identity is unresolved, with draft status. Never use a Discogs master ID as a release ID. Resolve a pending folder by renaming/updating it in place, preserving its ID.
+Name each release folder `Release title — Artist [Catalogue]`, e.g. `Correction — Mark Archer [FLATDEEP 003]`. Use the familiar archived release title, retain readable spelling and omit unknown or redundant parts. For an unknown title, use the grounded label/catalogue or existing descriptive identification. For colliding pressings, append the known pressing detail or, if needed, a short stable key suffix. A draft keeps its pending UUID in release.json. Identify releases across both layouts by manifest key and Drive ID. Rename the existing folder in place when correcting its display name.
+
+Keep language/grade folder tokens stable (e.g. en-GB__VGplus-VGplus). For every release save one UTF-8 `Listing.md` directly next to `release.json`. Use separate Title and Description headings with plain-text fenced blocks containing the exact saved wording and line breaks. Keep price, research, photo references and archive notes outside the copyable text. When there are multiple variants, group each pair under its own language, media/sleeve grades and variant or copy discriminator. Keep their order stable and retain all variants when editing one. For legacy drafts, show only available fields and label missing, partial, reformatted or transcribed text outside the blocks. When both fields are missing, provide a short status note. Preserve the original language when migrating.
+
+Treat Markdown as a view of the current saved listing text. Keep the JSON manifests, individual text files and copy-specific photo sets. On saves, find the existing Markdown by parent and name, compare contents, and update it in place. Reconcile independent user edits before replacing them. Verify its parent and text against all intended variants. A read-only request makes no changes.
 
 ## Common JSON rules
 
@@ -60,11 +65,32 @@ Complete images means all supplied/requested images were saved and verified, not
 
 ## Lookup, updates and recovery
 
-Search exact release ID first, then catalog/title within Releases. Read release.json before returning a match; names/catalogs alone are not unique. Follow pagination and current Drive IDs, not names alone. No global index is required; folder manifests remain authoritative.
+Match exact release IDs in the manifests. Use artist, catalogue and title to find candidates in Releases, and scan remaining manifests when a name search misses. Read release.json before returning a match; names/catalogs alone are not unique. Follow pagination and current Drive IDs, not names alone. No global index is required; folder manifests remain authoritative.
 
 Save text/photos first, manifests last. Recheck modifiedTime before updates; retain original file IDs with in-place replacement. After an ambiguous write, read back before retrying. Reuse verified partial uploads and report unresolved duplicates rather than deleting automatically. Keep sharing permissions unchanged.
 
 Read-only retrieval never alters prices, stock or sales. A sold item stays archived. A new copy gets its own photos or explicit confirmation archived photos represent it accurately. Market refresh occurs only on request. Setup does not import historical chats or images automatically.
+
+## Record text prepared for posting
+
+When Dave requests a Vinted title and description to copy, post or relist, including a short release/grade follow-up in that context, record the final text in the listing register before delivering it. “Just the title and description” limits the reply to those two fields. Browsing, historical inspection, a preview, or an explicit no-save/read-only request skips the register write. Apply this to retrieved, newly drafted and revised posting text, once per completed listing in a batch.
+
+Use the configured archive account and the existing Vinted Sales Ledger selected by the archive owner. Resolve the listing-register tab from the owner’s verified configuration and check its current headers. If the ledger or tab is ambiguous, ask for its location before writing. Read the populated rows before writing. Map fields by header:
+
+| Header | Value |
+| --- | --- |
+| Release | Human-readable release name |
+| Vinted titel | Exact title delivered to Dave |
+| Vinted beschrijving | Exact description delivered, with original line breaks |
+| Conditie | Grades or condition supplied for this listing, retaining uncertainty |
+| Archief | Verified Drive link for the physical copy if identified, otherwise its listing variant or release folder |
+| Prijsnotitie | An explicitly supplied asking price or an applicable saved asking price with its date and basis. Preserve a relevant existing note; leave unknown prices blank. |
+
+Match by archive ID and the applicable copy or language/condition variant. Accept an older release-folder link when it resolves to the same release and the text, language and grades identify the same listing. Reuse its row. Another identified physical copy or distinct variant gets its own row with its own archive link. If a legacy row could belong to either copy, leave it intact and use a distinct verified copy link for a genuinely new copy. Defer an ambiguous match if the intended entry cannot be identified. Never match on title alone.
+
+Read the matching row again before a change. Skip identical rows. Update only the changed listing fields, preserving manual edits, formulas, notes and other columns; reconcile conflicting wording before replacing it. On a miss, rescan the key and append one row using literal cell strings so punctuation or an initial equals sign cannot become a formula. Verify the unique match and read back the exact title and description, condition and archive link. Recheck after an uncertain write before retrying. If a duplicate or a failed write remains, give Dave the usable text and a short, accurate warning outside the copyable blocks.
+
+A register row means text was prepared. Publication, inventory and transactions require separate evidence. Leave Orders, Order Items, Events, Item Prices and financial totals untouched during this operation. A normal retrieval-to-post reads the existing archive; creating a new physical copy or editing the archive still follows the applicable archive workflow.
 
 ## Example requests
 

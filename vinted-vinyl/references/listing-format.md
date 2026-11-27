@@ -25,6 +25,8 @@ Bij `Various`, `Various Artists`, `V/A` of `VA` als releaseartiest:
 
 ## 6. Vast outputformat — English, plain text, factual
 
+Voor batches geldt dit format per voltooide listing, onder een eigen genummerde releasekop. Volg batch-processing.md voor het bufferen tot de wachtrij leeg is en lever daarna in FIFO-volgorde; precies twee kopieerblokken geldt per listing. Houd prijsadvies en archiefstatus bij de bijbehorende plaat. Een korte batchstatus of gerichte vraag voor een onopgeloste entry is toegestaan buiten de verkooptekst.
+
 Lever **drie verkooponderdelen, gevolgd door één korte archiefstatus**. Schrijf titel en beschrijving standaard in het Engels, ook bij een Nederlandstalig verzoek. Behoud originele artiestnamen, release- en tracktitels. Gebruik voor prijsadvies en archiefstatus de gesprekstaal. Een expliciete taalkeuze van de gebruiker heeft voorrang:
 
 1. **Vinted titel** — één afzonderlijk kopieerbaar tekstblok, uitsluitend één titelregel.
@@ -98,7 +100,7 @@ Geef desgewenst maximaal één korte zin over het prijsvertrouwen op basis van g
 
 - Release/uitvoering, trackvolgorde, artiest-trackkoppeling, jaar, label, catalogusnummer en genres zijn voldoende onderbouwd; geen gegevens verzonnen.
 - De titel is helder, zoekbaar en **niet kunstmatig tot 40 tekens beperkt**; Various-regel gevolgd.
-- Er zijn precies **twee** los kopieerbare tekstblokken (Titel en Beschrijving), plus afzonderlijk prijsadvies.
+- Er zijn precies **twee** los kopieerbare tekstblokken (Titel en Beschrijving) per voltooide listing, plus afzonderlijk prijsadvies en archiefstatus; bij batches blijft de FIFO-volgorde behouden.
 - Titel en beschrijving zijn in het Engels tenzij expliciet anders gevraagd; originele namen blijven behouden. De beschrijving begint met een UPPERCASE releasekop, direct gevolgd door `TRACKLIST`, zonder intro of emojis.
 - Daarna `DETAILS` in de juiste volgorde, vervolgens `CONDITION` en relevante hashtags. Gebruik gewone koppen met `-` of `*` bullets, zonder decoratieve tekens.
 - Conditie is standaard `Vinyl: Mint (M)` en `Sleeve: Mint (M)`, behalve bij expliciet andere staat of tegenstrijdige schade. Geen onbewezen afspeel-, sealed- of nieuwclaims buiten wat de grade rechtvaardigt.
